@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;IPlanetActions.java&apos; to &apos;PlanetMethod.java&apos;&#x0D;&#x0A;- Original project: &apos;Ejercicio1&apos;&#x0D;&#x0A;- Original element: &apos;IPlanetActions.java&apos;&#x0D;&#x0A;- Renamed element: &apos;PlanetMethod.java&apos;" description="Rename compilation unit &apos;IPlanetActions.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{IPlanetActions.java" name="PlanetMethod.java" references="false" stamp="1654478728283" version="1.0"/>
-</session>

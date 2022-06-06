@@ -1,7 +1,0 @@
-INDEX VERSION 1.130+C:\Users\lhaog\OneDrive\Documentos\SofkaCanteraNivel2\Segunda Semana\Ejercicio1\.metadata\.plugins\org.eclipse.jdt.core
-302609527.index
-4228322651.index
-358920302.index
-1650688248.index
-2332042701.index
-2356011476.index
