@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;OneMain&apos; to &apos;FirstMain&apos;&#x0D;&#x0A;- Original project: &apos;Ejercicio2&apos;&#x0D;&#x0A;- Original element: &apos;OneMain&apos;&#x0D;&#x0A;- Renamed element: &apos;FirstMain&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OneMain&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{OneMain.java[OneMain" matchStrategy="1" name="FirstMain" qualified="false" references="true" similarDeclarations="false" stamp="1654479024827" textual="false" version="1.0"/>
+</session>

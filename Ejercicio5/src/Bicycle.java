@@ -1,0 +1,48 @@
+
+/**
+ * Clase Bicicleta con sus metodos y atribulos
+ *
+ * @author Laura Daniela Gonzalez Alvarez   <lhaogonzaleza@gmail.com>
+ * @version 1.0.0 2022-06-05
+ * @since 1.0.0
+ */
+public class Bicycle extends Vehicle {
+    /**
+     * Ruedas pequeñas de entrenamiento para los niños
+     */
+    private boolean smallWheels;
+
+    
+    public void setsmallWheels(boolean smallWheels) {
+        this.smallWheels = smallWheels;
+    }
+
+    
+    public boolean getsmallWheels() {
+        return this.smallWheels;
+    }
+
+    
+    /**
+     * Método iniciar marcha
+     */
+    public String startUp() {
+        return "";
+    }
+
+    /**
+     *Método detener marcha
+     */
+    public String stop() {
+        return "";
+    }
+
+    @Override
+    public String toString() {
+        return "Tipo de vehículo: Bicicleta \n" +
+                super.toString() + " \n Ruedas pequeñas para niños: " + (getsmallWheels() == true
+                ? "Sí"
+                : "No"
+        );
+    }
+}

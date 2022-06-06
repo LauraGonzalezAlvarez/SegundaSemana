@@ -1,0 +1,55 @@
+
+/**
+  * Clase Bote con sus metodos y atribulos
+ *
+  * @author Laura Daniela Gonzalez Alvarez   <lhaogonzaleza@gmail.com>
+ * @version 1.0.0 2022-06-05
+ * @since 1.0.0
+ */
+public class Boat extends Vehicle {
+    /**
+     * Atributos
+     */
+    private boolean engine;
+
+    /**
+     * Métodos setters
+     */
+    public void setHasEngine(boolean engine) {
+        this.engine = engine;
+    }
+
+    /**
+     * Métodos getters
+     */
+    public boolean getEngine() {
+        return this.engine;
+    }
+
+    /**
+     * @return String
+     * @author Gretty Mosquera <gretymosquera@gmail.com>
+     * @since 1.0.0
+     */
+    public String startUp() {
+        return "";
+    }
+
+    /**
+     * @return String
+     * @author Gretty Mosquera <gretymosquera@gmail.com>
+     * @since 1.0.0
+     */
+    public String stop() {
+        return "";
+    }
+
+    @Override
+    public String toString() {
+        return "Tipo de vehículo: Lancha \n" +
+                super.toString() + " \n Motor: " + (getEngine() == true
+                ? "Sí"
+                : "No"
+        );
+    }
+}

@@ -1,0 +1,28 @@
+
+/**
+ * Esta clase contiene los valores de Mercurio
+ *
+ * @author Gretty Mosquera <gretymosquera@gmail.com>
+ * @version 1.0.0 2022-04-19
+ * @since 1.0.0
+ */
+public class Mercury extends Planet {
+    /*
+     * Constructor
+     * Inicializa los atributos de Mercurio.
+     */
+    public Mercury() {
+        super("Mercurio", 3.28, 6.4, 2.7, 9.2);
+    }
+
+    @Override
+    public String viewInformationAsString() {
+        return "Hola mercurio" +
+                "Identificador: " + getID() + "\n" +
+                "Nombre: " + getName() + "\n" +
+                "Masa: " + getMass() + "\n" +
+                "Densidad: " + getDensity() + "\n" +
+                "Diametro: " + getDiameter() + "\n" +
+                "Distancia: " + getDistance() + "\n";
+    }
+}

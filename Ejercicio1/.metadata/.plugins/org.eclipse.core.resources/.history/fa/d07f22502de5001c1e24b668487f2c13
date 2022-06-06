@@ -1,0 +1,26 @@
+
+/**
+ * Esta clase contiene los valores de Venus
+ *
+ * @author Gretty Mosquera <gretymosquera@gmail.com>
+ * @version 1.0.0 2022-04-20
+ * @since 1.0.0
+ */
+public class Venus extends Planet {
+    /*
+     * Constructor
+     * Inicializa los atributos de Venus.
+     */
+    public Venus() {
+        super("Venus", 4.83, 2.4, 8.2, 7.4);
+    }
+
+    public String viewInformationAsString() {
+        return "Identificador: " + getID() + "\n" +
+                "Nombre: " + getName() + "\n" +
+                "Masa: " + getMass() + "\n" +
+                "Densidad: " + getDensity() + "\n" +
+                "Diametro: " + getDiameter() + "\n" +
+                "Distancia: " + getDistance() + "\n";
+    }
+}

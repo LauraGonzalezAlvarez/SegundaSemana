@@ -1,0 +1,187 @@
+import java.util.Calendar;
+import java.util.UUID;
+
+
+	
+	/**
+	 * Esta clase contiene los valores del planeta tierra
+	 *
+	 * @author Gretty Mosquera <gretymosquera@gmail.com>
+	 * @version 1.0.0 2022-04-22
+	 * @since 1.0.0
+	 */
+	public class Vehicle {
+	    /*
+	     * Atributos
+	     */
+
+	    /**
+	     * Identificador único del vehículo
+	     */
+	    UUID ID;
+	    /**
+	     * Nombre del vehículo
+	     */
+	    String vehicleName;
+	    /**
+	     * Fecha de matricula del vehículo ------------------
+	     */
+	    Calendar registrationDate;
+	    /**
+	     * Marca del vehículo
+	     */
+	    String brand;
+	    /**
+	     * Modelo del vehículo
+	     */
+	    String model;
+	    /**
+	     * Color del vehículo
+	     */
+	    String colour;
+	    /**
+	     * Número de pasajeros que soporta el vehículo -------------
+	     */
+	    int numberPassengers;
+	    /**
+	     * Número de puertas del vehículo
+	     */
+	    int numberDoors;
+	    /**
+	     * Número de asientos del vehículo
+	     */
+	    int numberSeats;
+	    /**
+	     * Tripulación: Personas que trabajan en el vehículo ----------
+	     * Presencia o ausencia de tripulación
+	     */
+	    int occupants;
+	    /**
+	     * Número de ruedas ---------------
+	     */
+	    int numberWheels;
+	    /**
+	     * Tipo de vehículo (aéreo, marítimo y terrestre), medio por donde se desplaza -----------
+	     */
+	    String vehicleType;
+
+	    /**
+	     * Constructores
+	     */
+	    public Vehicle() {
+	        this.ID = UUID.randomUUID();
+	    }
+
+	    /**
+	     * Métodos setters
+	     */
+	    public void setVehicleName(String vehicleName) {
+	        this.vehicleName = vehicleName;
+	    }
+
+	    public void setRegistrationDate(Calendar registrationDate) {
+	        this.registrationDate = registrationDate;
+	    }
+
+	    public void setBrand(String brand) {
+	        this.brand = brand;
+	    }
+
+	    public void setModel(String model) {
+	        this.model = model;
+	    }
+
+	    public void setColour(String colour) {
+	        this.colour = colour;
+	    }
+
+	    public void setNumberPassengers(int numberPassengers) {
+	        this.numberPassengers = numberPassengers;
+	    }
+
+	    public void setNumberDoors(int numberDoors) {
+	        this.numberDoors = numberDoors;
+	    }
+
+	    public void setNumberSeats(int numberSeats) {
+	        this.numberSeats = numberSeats;
+	    }
+
+	    public void setOccupants(int occupants) {
+	        this.occupants = occupants;
+	    }
+
+	    public void setNumberWheels(int numberWheels) {
+	        this.numberWheels = numberWheels;
+	    }
+
+	    public void setVehicleType(String vehicleType) {
+	        this.vehicleType = vehicleType;
+	    }
+
+	    /**
+	     * Métodos getters
+	     */
+	    public UUID getID() {
+	        return ID;
+	    }
+
+	    public String getVehicleName() {
+	        return vehicleName;
+	    }
+
+	    public Calendar getRegistrationDate() {
+	        return registrationDate;
+	    }
+
+	    public String getBrand() {
+	        return brand;
+	    }
+
+	    public String getModel() {
+	        return model;
+	    }
+
+	    public String getColour() {
+	        return colour;
+	    }
+
+	    public int getNumberPassengers() {
+	        return numberPassengers;
+	    }
+
+	    public int getNumberDoors() {
+	        return numberDoors;
+	    }
+
+	    public int getNumberSeats() {
+	        return numberSeats;
+	    }
+
+	    public int getOccupants() {
+	        return occupants;
+	    }
+
+	    public int getNumberWheels() {
+	        return numberWheels;
+	    }
+
+	    public String getVehicleType() {
+	        return vehicleType;
+	    }
+
+	    /**
+	     * Este método se utiliza para convertir a String cualquier objeto Java.
+	     * Muestra la información que contiene un vehículo
+	     *
+	     * @return String
+	     * @author Gretty Mosquera <gretymosquera@gmail.com>
+	     */
+	    public String toString() {
+	        return "El nombre del vehículo es: " + getVehicleName() +
+	                "\nCantidad de puertas: " + getNumberDoors() +
+	                "\nCantidad de asientos: " + getNumberSeats() +
+	                "\nCantidad de ruedas: " + getNumberWheels() +
+	                "\nTipo de vehículo: " + getVehicleType();
+
+}

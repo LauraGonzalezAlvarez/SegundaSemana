@@ -1,0 +1,36 @@
+
+public class FirstMain {
+
+	public static void main(String[] args) {
+		 System.out.println(" ¿Es posible ejecutar un programa en java que contenga varias "
+		 		+ "clases con métodos main? En caso positivo, ¿cómo se determina el punto de"
+		 		+ " entrada a un programa?"
+		 		+ "Respuesta: Si, es posible ya que java permite múltiples clases de tipo main, "
+		 		+ "pero solo es posible ejecutar uno a la vez,  en mi caso yo uso Eclipse y es"
+		 		+ " muy sencillo simplemente abro la clase con el main y doy clic en run"
+		 		+ "pero si tienes un IDE direfente presionas click derecho run sobre la clase main"
+		 		+ " que vaya a ejecutar"
+	        );
+
+	        /**
+	         * Atributos
+	         */
+
+	        /**
+	         * Valor de número 1
+	         */
+	        int number1 = 10;
+	        /**
+	         * Valor de número 2
+	         */
+	        int number2 = 25;
+	        /**
+	         * Resultado de la suma entre número 1 y número 2
+	         */
+	        int sum;
+
+	        sum = number1 + number2;
+	        System.out.println("---Suma---\n" + number1 + " + " + number2 + " = " + sum);
+	}
+
+}

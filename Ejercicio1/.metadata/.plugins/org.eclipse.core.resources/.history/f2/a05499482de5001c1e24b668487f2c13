@@ -1,0 +1,27 @@
+
+/**
+ * Esta clase contiene los valores de Saturno
+ *
+ * @author Gretty Mosquera <gretymosquera@gmail.com>
+ * @version 1.0.0 2022-04-19
+ * @since 1.0.0
+ */
+public class Saturn extends Planet {
+    /*
+     * Constructor
+     * Inicializa los atributos de Saturno.
+     */
+    public Saturn() {
+        super("Saturno", 5.98, 2.9, 5.2, 1.9);
+    }
+
+    @Override
+    public String viewInformationAsString() {
+        return "Identificador: " + getID() + "\n" +
+                "Nombre: " + getName() + "\n" +
+                "Masa: " + getMass() + "\n" +
+                "Densidad: " + getDensity() + "\n" +
+                "Diametro: " + getDiameter() + "\n" +
+                "Distancia: " + getDistance() + "\n";
+    }
+}

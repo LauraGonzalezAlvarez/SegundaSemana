@@ -1,0 +1,27 @@
+
+/**
+ * Esta clase contiene los valores de Júpiter
+ *
+* @author Laura Daniela Gonzalez Alvarez <lhaogonzaleza@gmail.com>
+* @version 1.0.0 2022-06-05
+* @since 1.0.0
+ */
+public class Jupiter extends Planet {
+    /*
+     * Constructor
+     * Inicializa los atributos de Júpiter
+     */
+    public Jupiter() {
+        super("Júpiter", 1.90, 4.7, 7.4, 1.5);
+    }
+
+    @Override
+    public String informationPlanet() {
+        return "Identificador: " + getID() + "\n" +
+                "Nombre: " + getName() + "\n" +
+                "Masa: " + getMass() + "\n" +
+                "Densidad: " + getDensity() + "\n" +
+                "Diametro: " + getDiameter() + "\n" +
+                "Distancia: " + getDistance() + "\n";
+    }
+}

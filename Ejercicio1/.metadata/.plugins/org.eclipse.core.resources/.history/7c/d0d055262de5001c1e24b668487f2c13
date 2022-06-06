@@ -1,0 +1,16 @@
+
+/*
+ * Esta interface contiene los métodos que se van a utilizar en las diferentes clases de planetas.
+ */
+public interface IPlanetActions {
+    /**
+     * Este método se utiliza para convertir a String cualquier objeto Java.
+     * Muestra la información que contiene el planeta.
+     *
+     * @return String
+     * @version 1.0.0 2022-04-18
+     * @author Gretty Mosquera <gretymosquera@gmail.com>
+     * @since 1.0.0
+     */
+    public String viewInformationAsString();
+}

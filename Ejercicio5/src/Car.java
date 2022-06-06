@@ -1,0 +1,51 @@
+
+/**
+  * Clase Coche con sus metodos y atribulos
+ *
+ * @author Laura Daniela Gonzalez Alvarez   <lhaogonzaleza@gmail.com>
+ * @version 1.0.0 2022-06-05
+ * @since 1.0.0
+ */
+public class Car extends Vehicle {
+    /**
+     * Variable lógica carro  
+     */
+    private boolean car;
+
+    /**
+     * Métodos setters
+     */
+    public void setCar(boolean car) {
+        this.car = car;
+    }
+
+    /**
+     * Métodos getters
+     */
+    public boolean getCar() {
+        return this.car = car;
+    }
+
+    /**
+     * @return String    
+     */
+    public String startUp() {
+        return "";
+    }
+
+    /**
+     * @return String    
+     */
+    public String stop() {
+        return "";
+    }
+
+    @Override
+    public String toString(){
+        return "Tipo de vehículo: Coche \n" +
+                super.toString() + " \n Eléctrico: " + (getCar() == true
+                ? "Sí"
+                : "No"
+        );
+    }
+}
